@@ -26,20 +26,38 @@ public class FrmPersona extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        es = new javax.swing.JPanel();
+
         setClosable(true);
         setIconifiable(true);
         setResizable(true);
         setTitle("PERSONA");
 
+        javax.swing.GroupLayout esLayout = new javax.swing.GroupLayout(es);
+        es.setLayout(esLayout);
+        esLayout.setHorizontalGroup(
+            esLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 695, Short.MAX_VALUE)
+        );
+        esLayout.setVerticalGroup(
+            esLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 423, Short.MAX_VALUE)
+        );
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 707, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(es, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 429, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(es, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -47,5 +65,6 @@ public class FrmPersona extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel es;
     // End of variables declaration//GEN-END:variables
 }
